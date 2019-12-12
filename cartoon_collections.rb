@@ -7,9 +7,9 @@ end
 
 def summon_captain_planet(planeteer)
   array.collect { |word| word.capitalize + "!" }
-  planeteer.collect do |elements|
-    puts "#{elements.capitalize}" + "!"
-  end
+  # planeteer.collect do |elements|
+  #   puts "#{elements.capitalize}" + "!"
+  # end
 end
 
 def long_planeteer_calls(array)
