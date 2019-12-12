@@ -6,7 +6,7 @@ end
 end
 
 def summon_captain_planet(planeteer)
-  array.collect { |word| word.capitalize + "!" }
+  planeteer.collect { |word| word.capitalize + "!" }
   # planeteer.collect do |elements|
   #   puts "#{elements.capitalize}" + "!"
   # end
